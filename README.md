@@ -5,13 +5,11 @@ Ini adalah proyek MVP untuk simulasi pengajuan kredit kendaraan, yang terdiri da
 - **Marketer Portal** – untuk melengkapi data pengajuan dari dealer.
 - **Approval Portal** – untuk approval dan monitoring oleh atasan/admin.
 
----
-
 ## 🚀 Cara Menjalankan Proyek Ini
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/username/kredit-kendaraan-mvp.git
+git clone https://github.com/DwkLoki/kredit-kendaraan-mvp.git
 cd kredit-kendaraan-mvp
 ```
 
@@ -30,8 +28,6 @@ npm run dev
 - **Marketer Portal**: [http://localhost:5173/marketer](http://localhost:5173/marketer)
 - **Approval Portal**: [http://localhost:5173/approval](http://localhost:5173/approval)
 
----
-
 ## 🧪 Simulasi Alur Pengajuan
 
 1. **Masuk ke Dealer Portal**
@@ -43,12 +39,8 @@ npm run dev
 3. **Masuk ke Approval Portal**
    - Approve pengajuan → status berubah menjadi "siap kontrak".
 
----
-
 ## 💾 Penyimpanan Data
 Semua data disimpan sementara di `localStorage` browser. Tidak ada backend/API yang digunakan untuk saat ini.
-
----
 
 ## 🔧 Stack Teknologi
 - **React**
